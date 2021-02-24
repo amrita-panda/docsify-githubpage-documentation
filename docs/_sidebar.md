@@ -1,3 +1,13 @@
-- [Home](home.md)
+- [Home](/home.md)
 - Solution
+    - [aboutSolution](solutions.md) 
     - [createSolution](create-solution.md)
+    - [editSolution](edit-solution.md)
+    - [exportSolution](export-solution.md)
+    - [blueprint](blueprint-solution.md)
+    - [deleteSolution](delete-solution.md)
+    - Explore Solutions
+        - [Connector](./solutions/connector.md)
+        - [Datasets](./solutions/datasets.md)
+        - [Modal](./solutions/modal.md)
+    - Dashboard

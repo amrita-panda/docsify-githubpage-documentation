@@ -1,12 +1,7 @@
----
-id: create-solution
-title: create Solution
-sidebar_label: create Solution
-# slug: solution/dataset
----
+<!--  -->
 
-    ### createSolution page
- ![Slider control rendered on form](../../static/img/create-solution-image.png "Slider control rendered on form")  
+  ### createSolution page
+ ![Slider control rendered on form](./_images/create-solution-image.png "Slider control rendered on form")  
 
 - **Web**. To make the code component available from any web browser, select the Web option next to the component. Notice that setting the Web option includes rendering the component in web browsers on PCs, Macs, and mobile devices.
 
@@ -29,7 +24,7 @@ sidebar_label: create Solution
   
 10. Select **Save and Close** to close the form editor.  
   
-## Add code component to an entity
+### Add code component to an entity
 
 To add a code component like data-set component or simple table component to a grid or view, follow the steps below:
 
@@ -40,6 +35,6 @@ To add a code component like data-set component or simple table component to a g
   - Choose the client where you want the component to appear.
 
 
-## See the code component in action  
+### See the code component in action  
 
  Open a record that includes the field with the code component, such as the Opportunity form from the previous example, and view how the field is changed. The field is now rendered as a slider component instead of the text field.  

@@ -24,4 +24,4 @@ sidebar_label: History Solution
  Calculated and rollup attributes are based on existing attribute types that inherit from <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>. The following types of attributes have new properties:  
   
 ### Solution-history
-![Solution History](../../static/img/history-solution.png "Solution history")
+![Solution History](./_images/history-solution.png "Solution history")

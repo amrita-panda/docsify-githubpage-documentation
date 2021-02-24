@@ -18,4 +18,4 @@
  Calculated and rollup attributes are based on existing attribute types that inherit from <xref:Microsoft.Xrm.Sdk.Metadata.AttributeMetadata>. The following types of attributes have new properties:  
   
   ### Export
-   ![Export solution](../../static/img/export-solution.png "Export solution")
+   ![Export solution](./_images/export-solution.png "Export solution")
