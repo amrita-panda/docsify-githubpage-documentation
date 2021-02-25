@@ -1,0 +1,23 @@
+{
+  "name": "docsify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "docsify serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrita-panda/docsify-githubpage-documentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amrita-panda/docsify-githubpage-documentation/issues"
+  },
+  "homepage": "https://github.com/amrita-panda/docsify-githubpage-documentation#readme"
+}
