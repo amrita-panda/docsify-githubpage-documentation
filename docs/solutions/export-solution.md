@@ -1,5 +1,5 @@
-### Export Solution
-## Common elements and characteristics  
+## Export Solution
+
  Calculated and rollup attributes share some common elements and characteristics, for example:  
   
 - They’re read-only.  

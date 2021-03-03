@@ -7,8 +7,12 @@
     - [blueprint](solutions/blueprint-solution.md)
     - [deleteSolution](solutions/delete-solution.md)
     - Explore Solutions
+        - [Dashboard](solutions/dashboard.md)
+        - [Workflow](solutions/workflow.md)
+        - [Rule](solutions/rule.md) 
         - [Connector](solutions/connector.md)
         - [Datasets](solutions/datasets.md)
         - [Modal](solutions/modal.md)
-    - Dashboard
+        
     - [videofiles](videofiles/video.md)
+    - [allFeatures](solutions/feature.md)
