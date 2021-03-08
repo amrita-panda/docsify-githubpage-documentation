@@ -6,12 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/buble.css" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
     <link rel="stylesheet" href="index.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <nav>
+  <!-- <nav>
     <a><img class="logo" alt="notfound"src="../_images/logo.png" /></a>
     <div class="dropdown">
       <button class="dropbtn">Versions 
@@ -23,14 +25,14 @@
         <a href="#/v1.2/">Version 1.2</a>
       </div>
     </div> 
-    </nav>
+    </nav> -->
   <div id="app"></div>
   <script>
     window.$docsify = {
       coverpage: true,
       loadSidebar:true,
-      //loadNavbar: false,
-      //mergeNavbar: true,
+      loadNavbar: true,
+      mergeNavbar: false,
       subMaxLevel: 6,
       name: 'digitaldots',
       repo: '',
