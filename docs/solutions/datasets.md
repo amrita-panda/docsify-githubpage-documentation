@@ -13,12 +13,27 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 ### Delete Dataset
 ![deletemodal](../_images/delete-dataset.png "deletemodal")
 
+ <!-- cards:start -->
+         INFO=row@cardTheme-1
 
-<!-- card:start -->
+        #### IMG= ../_images/logo.png ,class = justify-contnet-center  w-50,
+        TXT= first card , class = text-light ,
+        SIZE= 3 ^
 
-    #### ** img='../_images/twitter.png' ** 
-    Twitter
+       #### IMG= ../_images/logo.png , class= ,
+        TXT= second card , class = text-danger ,
+        SIZE= 3 ^ 
 
+       #### IMG= ../_images/logo.png , class= ,
+        TXT= third card , class = text-uppercase,
+        SIZE= 3 ^
 
+       #### IMG= ../_images/logo.png , class = ,
+        TXT= fourth card , class = text-info,
+        SIZE= 2 ^
 
-<!-- card:end -->
+       #### IMG= ../_images/logo.png , class= ,
+        TXT= fifth card , class= text-capitalize ,
+        SIZE= 2 ^
+
+<!-- cards:end -->

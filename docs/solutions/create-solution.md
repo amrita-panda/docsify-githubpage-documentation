@@ -8,34 +8,36 @@
  <!-- cards:start -->
          INFO=row@cardTheme-1
 
-        #### IMG= ../_images/logo.png ,
-        TXT= first card ,
+        #### IMG= ../_images/logo.png ,class = justify-content-center  w-50,
+        TXT= first card , class = text-light ,
         SIZE= 3 ^
 
-       #### IMG= ../_images/logo.png ,
-        TXT= second card ,
+       #### IMG= ../_images/logo.png , class= ,
+        TXT= second card , class = text-danger ,
         SIZE= 3 ^ 
 
-       #### IMG= ../_images/logo.png ,
-        TXT= third card ,
+       #### IMG= ../_images/logo.png , class= ,
+        TXT= third card , class = text-uppercase,
         SIZE= 3 ^
 
-       #### IMG= ../_images/logo.png ,
-        TXT= fourth card ,
+       #### IMG= ../_images/logo.png , class = ,
+        TXT= fourth card , class = text-info,
         SIZE= 2 ^
 
-       #### IMG= ../_images/logo.png ,
-        TXT= fifth card ,
+       #### IMG= ../_images/logo.png , class= ,
+        TXT= fifth card , class= text-capitalize ,
         SIZE= 2 ^
-
 
 <!-- cards:end -->
+
+
+  To make the code component available on phones running Dynamics 365 for phones, select the Phone option next to the component.
 
  <!-- cards:start -->
          INFO=row@cardTheme-1
 
-        #### IMG= ../_images/logo.png ,
-        TXT= sixth card ,
-        SIZE= 4 ^
+        #### IMG= ../_images/logo.png ,class = justify-content-center  w-50,
+        TXT= first card , class = text-light ,
+        SIZE= 3 ^
 
 <!-- cards:end -->
