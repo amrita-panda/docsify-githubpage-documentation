@@ -6,8 +6,7 @@
 
 <!-- background color -->
 
-![color](#e08b84)
-# DigitalDots
+# DigitalDots <small></small>
 
 > Digital Solution Studio
 

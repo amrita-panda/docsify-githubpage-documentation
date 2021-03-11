@@ -21,7 +21,6 @@
   },
   "homepage": "http://localhost:3000",
   "dependencies": {
-    "bootstrap": "^4.6.0",
     "docsify-cli": "^4.4.2"
   }
 }

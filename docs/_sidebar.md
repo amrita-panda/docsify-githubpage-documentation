@@ -1,11 +1,14 @@
-- [Home](home.md)
+- Home
+    - [home](home.md)
+
 - Solution
-    - [aboutSolution](solutions/solutions.md) 
-    - [createSolution](solutions/create-solution.md)
-    - [editSolution](solutions/edit-solution.md)
-    - [exportSolution](solutions/export-solution.md)
+
+    - [about Solution](solutions/solutions.md) 
+    - [create Solution](solutions/create-solution.md)
+    - [edit Solution](solutions/edit-solution.md)
+    - [export Solution](solutions/export-solution.md)
     - [blueprint](solutions/blueprint-solution.md)
-    - [deleteSolution](solutions/delete-solution.md)
+    - [delete Solution](solutions/delete-solution.md)
     - Explore Solutions
         - [Dashboard](solutions/dashboard.md)
         - [Workflow](solutions/workflow.md)
@@ -16,3 +19,4 @@
         
     - [videofiles](videofiles/video.md)
     - [allFeatures](solutions/feature.md)
+-User

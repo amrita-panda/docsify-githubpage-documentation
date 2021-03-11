@@ -5,63 +5,62 @@
 
 - **Phone**. To make the code component available on phones running Dynamics 365 for phones, select the Phone option next to the component.
 
+
+
+
+  To make the code component available on phones running Dynamics 365 for phones, select the Phone option next to the component.
+
  <!-- cards:start -->
          INFO=row@cardTheme-1
 
-        #### IMG= ../_images/logo.png , class = justify-content-center  w-50,
-        TXT= first card , class = text-light ,
-        SIZE= 3 ^
-
-       #### IMG= ../_images/logo.png , class= ,
-        TXT= second card , class = text-danger ,
-        SIZE= 3 ^ 
-
-       #### IMG= ../_images/logo.png , class= ,
+         #### IMG= ../_images/logo.png , class= w-25 bg-danger,
         TXT= third card , class = text-uppercase,
+        LINKTITLE = GET STARTED , class= ,
+        LINKURL = ../../XYZ.md,
         SIZE= 3 ^
 
-       #### IMG= ../_images/logo.png , class = ,
-        TXT= fourth card , class = text-info,
-        SIZE= 2 ^
-
-       #### IMG= ../_images/logo.png , class= ,
-        TXT= fifth card , class= text-capitalize ,
-        SIZE= 2 ^
+        
+         #### IMG= ../_images/logo.png , class= w-25,
+        TXT= third card , class = text-uppercase,
+        LINKTITLE = GET STARTED , class= ,
+        LINKURL = ../../XYZ.md,
+        SIZE= 3 ^
 
 <!-- cards:end -->
-
 
   To make the code component available on phones running Dynamics 365 for phones, select the Phone option next to the component.
 
  <!-- cards:start -->
          INFO=row@cardTheme-1
 
-        #### IMG= ../_images/logo.png ,class = justify-content-center  w-50,
-        TXT= first card , class = text-light ,
+         #### IMG= ../_images/logo.png , class= w-25 bg-primary ,
+        TXT= third card , class = text-uppercase,
+        LINKTITLE = GET STARTED , class= ,
+        LINKURL = ../../XYZ.md,
+        SIZE= 3 ^
+
+        
+         #### IMG= ../_images/logo.png , class= w-25 ,
+        TXT= third card , class = text-uppercase,
+        LINKTITLE = GET STARTED , class= ,
+        LINKURL = ../../XYZ.md,
         SIZE= 3 ^
 
 <!-- cards:end -->
 
-  To make the code component available on phones running Dynamics 365 for phones, select the Phone option next to the component.
-<!-- cards:start -->
-         INFO=row@cardTheme-1
-
-        #### IMG= ../_images/logo.png ,class = justify-content-center  w-50,
-        TXT= second card , class = text-light ,
-        SIZE= 4 ^
-
-<!-- cards:end -->
 
 <!-- cards:start -->
          INFO=row@cardTheme-2
 
-        HEADING = Get Started With Studio , class = ,
-        LINKS= signup for free @ Get Started with App creation @ plan a power Apps project , class= ,
+        HEADING = Get Started With Studio , class = text-success,
+        LINKSTitle= signup for free @ Get Started with App creation @ plan a power Apps project , class= text-uppercase text-primary,
+        LINKURL= ../xys.md @ .../xssr.md @ ../nfka.md ,
         SIZE = 4 ^
      
-        HEADING = Get Started With HealthAssessment , class = ,
-        LINKS= signup for free @ Get Started with App creation @ plan a power Apps project , class= ,
-        SIZE = 4 ^   
+        HEADING = Get Started With Studio , class = ,
+        LINKSTitle= signup for free @ Get Started with App creation @ plan a power Apps project , class= ,
+        LINKURL= ../xys.md @ .../xssr.md @ ../nfka.md ,
+        SIZE = 4 ^
 
 <!-- cards:end -->
 
@@ -84,3 +83,21 @@
         SIZE = 5 ^   
 
 <!-- cards:end -->
+
+ <!-- cards:start -->
+INFO=row@cardTheme-1
+
+     #### IMG= ../_images/logo.png , class= w-25 bg-danger,
+     TXT= third card , class = text-uppercase,
+     LINKTITLE = GET STARTED , class= ,
+     LINKURL = ../../XYZ.md,
+     SIZE= 3 ^
+
+
+     #### IMG= ../_images/logo.png , class= w-25,
+     TXT= third card , class = text-uppercase,
+     LINKTITLE = GET STARTED , class= ,
+     LINKURL = ../../XYZ.md,
+     SIZE= 3 ^
+
+ <!-- cards:end -->
