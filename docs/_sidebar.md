@@ -1,5 +1,5 @@
-- Home
-    - [home](home.md)
+-  Home
+ - [Home](home.md)
 
 - Solution
 

@@ -1,4 +1,4 @@
 ### Home page
-### DigitalDots
+#### DigitalDots
 
 ![HomeDigitalDots](./_images/home.png)

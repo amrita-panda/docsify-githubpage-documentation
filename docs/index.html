@@ -6,44 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.12.1/themes/vue.min.css" integrity="sha512-Ofuff/As5MXt1cOVWpU4ND48tYNjnE0Wc6qv0FHqW+FGueMbJyjJWNNpJ3m+92V1txLsEiDxl6UKTIDanAep6g==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="index.css">
+
+    
+  
     <style>
       nav.app-nav  {
         position: fixed !important;
         margin-top: 0;
     }
 
+
      
     </style>
 </head>
 <body>
-  <!-- <nav>
-    <a><img class="logo" alt="notfound"src="../_images/logo.png" /></a>
-    <div class="dropdown">
-      <button class="dropbtn">Versions 
-        <i class="caret"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="#/">Version 1</a>
-        <a href="#/v1.1/">Version 1.1</a>
-        <a href="#/v1.2/">Version 1.2</a>
-      </div>
-    </div> 
-    </nav> -->
   <div id="app"></div>
   <script>
     window.$docsify = {
+      alias: {
+           '/.*/_navbar.md': '/_navbar.md',
+           '/.*/_sidebar.md':'/sidebar.md',
+         },
       themeColor: '#3F51B5',
       coverpage: true,
       auto2top: true,
       loadSidebar:true,
       loadNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 4,
+      subMaxLevel:5,
       name: '<span class="text-primary text-uppercase">DigitalDots</span>',
       repo: '',
       search: 'auto',
@@ -57,17 +49,16 @@ search: {
   noData: 'No Results!',
   // Headline depth, 1 - 6
   depth: 6,
+  
   hideOtherSidebarContent: false, // whether or not to hide other sidebar content
-},
+}
 
     }
   </script>
   <!-- Docsify v4 -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.12.1/docsify.min.js" integrity="sha512-Pt6M2HFXOZxiNMEwxXx8aQD/ilDwvqb7ybZDMJTGD6TNpfKluyjsbYWHxbT/7mgQ4+DD77lQTBlrIffLz24UCA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.12.1/plugins/search.min.js" integrity="sha512-Rhy+mgVK0MkXbjXjsaFUgGvqNOcArsXC/Y/8L13gkBLKHp7DyUnWstQ6ns8W49mwgcglLgq7kgDyiWWvOZFZmQ==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
   <script src="customPlugins/card.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
-  
 </body>
 </html>
