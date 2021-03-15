@@ -112,12 +112,12 @@
 
   function createCards(cards) {
     return (
-      "<div class='row'>" +
+      "<div class='row mt-2'>" +
       cards.map((card, index) => {
         let cardDetail = card.split("=");
         let cardSize = cardDetail[cardDetail.length - 1].trim();
         return (
-          "<div class='col-sm-" +
+          "<div class='mt-2 col-sm-" +
           cardSize +
           "'>" +
           "<div class='bg-success text-white card'>" +
@@ -149,11 +149,15 @@
       "<div class='row mt-2'>" +
       cards.map((card) => {
         let cardDetail = card.split("=");
+        console.log(cardDetail);
         let linkTitleList=cardDetail[3].split(',')[0].split('@');
         let linkUrlList=cardDetail[5].split(',')[0].split('@');
+        let cardSize = cardDetail[cardDetail.length - 1].trim();
         return (
-          "<div class='col-sm-3 '>"+
-         "<div class='card h-100'>"+
+          "<div class='mt-2 col-sm-" +
+          cardSize +
+          "'>"+
+         "<div class='card'>"+
          "<h5 class='" +
          `${cardDetail[2].split(',')[0]}` +
          "'>" +
@@ -176,13 +180,16 @@
       cards.map((card, index) => {
         let cardTitle,cardLink,cardDescription;
         let cardDetail = card.split("=");
+        let cardSize = cardDetail[cardDetail.length - 1].trim();
         if(regex.class.test(cardDetail[1])||regex.class.test(cardDetail[3])||regex.class.test(cardDetail[5])){
           cardTitle=cardDetail[2].split(',')[0];
           cardLink=cardDetail[4].split(',')[0];
           cardDescription=cardDetail[6].split(',')[0]
         }
         return (
-          "<div class='col-sm-6'>"+
+          "<div class='mt-2 col-sm-" +
+          cardSize +
+          "'>"+
          "<div class='card h-100'>"+
          "<a href='"+`#/${cardDetail[3].split(',')[0]}`+"' class='"+`${cardTitle}`+`${cardLink}`+"' >"+cardDetail[1].split(',')[0]+"</a>"+
          "<p class='"+`${cardDescription}`+"'>"+cardDetail[5].split('class')[0]+"</p>"+
