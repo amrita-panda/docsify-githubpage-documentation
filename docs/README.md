@@ -1,6 +1,7 @@
 ## Explore
 
  ![explore page](../_images/modern-isometric.jpg "explore page :size=60% :class=justify-contnet-center ")
+ Explore
 
 <!-- cards:start -->
          INFO=row@cardTheme-2

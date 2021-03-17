@@ -24,9 +24,9 @@
 </div> -->
 <hr class='sidebar-border'/>
 
-- <i class="fas fa-atom" aria-hidden="true"></i> Getting Started
-- <i class="fas fa-cloud-meatball" aria-hidden="true"></i> Features
-- <i class="fa fa-university" aria-hidden="true"></i> Architecture
+-  [Home](solutions/create-solution.md)
+<!-- - <i class="fas fa-cloud-meatball" aria-hidden="true"></i> Features
+- <i class="fa fa-file-archive-o" aria-hidden="true"></i> Architecture
 - <i class="fa fa-shopping-cart" aria-hidden="true"></i> Examples
  <hr class='sidebar-border' />
 
@@ -37,9 +37,9 @@
  <hr class='sidebar-border'/>
 
 - <i class="fas fa-cloud-meatball" aria-hidden="true"></i> Relese Notes
-- <i class="fa fa-address-card" aria-hidden="true"></i> Operations
+- <i class="fa fa-file-code-o" aria-hidden="true"></i> Operations
 - <i class="fa fa-shopping-cart" aria-hidden="true"></i> Supports
  <hr class='sidebar-border'/>
 - <i class="fa fa-lock" aria-hidden="true"></i> API Guide
 - <i class="fa fa-users" aria-hidden="true"></i> Integrations
-- <i class="fas fa-cloud-meatball" aria-hidden="true"></i> Blueprints
+- <i class="fas fa-cloud-meatball" aria-hidden="true"></i> Blueprints -->
