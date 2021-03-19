@@ -6,3 +6,5 @@ There are many variations of passages of Lorem Ipsum available, but the majority
 ![SDOH DASHBOARD](../_images/solution-dashboard.png "SDOH dashboard")
 
 ## Inventory
+
+[swagger](https://foundation.bever.digitaldots.ai/api-docs)

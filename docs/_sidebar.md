@@ -25,6 +25,7 @@
 <hr class='sidebar-border'/>
 
 -  [Home](solutions/create-solution.md)
+- [TestSwagger](solutions/dashboard.md)
 <!-- - <i class="fas fa-cloud-meatball" aria-hidden="true"></i> Features
 - <i class="fa fa-file-archive-o" aria-hidden="true"></i> Architecture
 - <i class="fa fa-shopping-cart" aria-hidden="true"></i> Examples
